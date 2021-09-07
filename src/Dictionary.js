@@ -13,8 +13,9 @@ function search(event) {
     event.preventDefault();
     // alert(`Searching for definition of ${keyword}.`);
 
+    //documentation" http://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
+    
     axios.get(apiUrl).then(handleResponse);
 }
 
