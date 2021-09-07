@@ -15,12 +15,12 @@ function search(event) {
 
     //documentation" http://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    
+    console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
 }
 
 function handleKeywordChange(event) {
-    console.log(event.target.value);
+    
     //need to set state to keep this to use later
     setKeyword(event.target.value);
 }
