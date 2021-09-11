@@ -1,0 +1,12 @@
+.sound {
+    background-color: brown;
+    color: beige;
+    border: 1px;
+    border-color: brown;
+    border-radius: 1px;
+}
+
+.sound:hover {
+    background-color: beige;
+    color: brown;
+}

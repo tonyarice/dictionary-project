@@ -16,7 +16,7 @@ export default function App() {
         <br />
         <Dictionary />
           </main>
-      <footer className="App-footer">🐈<a href="https://github.com/tonyarice/dictionary-project">Open-source code</a> by Tonya Rice</footer>
+      <footer className="App-footer">🐈<a href="https://github.com/tonyarice/dictionary-project" className="credit">Open-source code</a> by<a href="https://www.linkedin.com/in/tonyarice" className="credit"> Tonya Rice</a></footer>
       </div>
 
     </div>

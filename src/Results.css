@@ -1,3 +1,19 @@
-.user-word {
+.Results h2 {
+    font-size: 36px;
     font-weight: bolder;
+    line-height: 1.5;
+    
+}
+
+.Results {
+    color: rgb(41, 27, 1);
+    font-size:x-large;
+}
+
+.Results .book {
+    background-image: url("images/parchment_book.jpg");
+}
+
+.Results .answers {
+    background-image: url("images/clear.png");
 }

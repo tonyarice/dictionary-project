@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import "./Dictionary.css";
 
 
 
@@ -32,11 +33,16 @@ function handleKeywordChange(event) {
 
     return (
         <div className="Dictionary">
+            <section>
             <form onSubmit={search}>
                 <input type="search" onChange={handleKeywordChange} />
                 </form>
-                <Results results={results} />
-               
+                <div className="hint">
+                    suggested words: sunset, flower, truck...
+                </div>
+                </section> 
+                <div><Results results={results} />
+               </div>
                 </div>
     );
 }
