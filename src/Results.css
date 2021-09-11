@@ -1,13 +1,16 @@
 .Results h2 {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bolder;
     line-height: 1.5;
-    
+    color: rgb(75, 34, 2);
 }
+
+
 
 .Results {
     color: rgb(41, 27, 1);
-    font-size:x-large;
+    font-size: x-large;
+    font-weight: 900;
 }
 
 .Results .book {

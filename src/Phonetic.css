@@ -1,12 +1,26 @@
-.sound {
-    background-color: brown;
+.Phonetic .sound {
+    background-color: rgb(156, 85, 33);
     color: beige;
-    border: 1px;
-    border-color: brown;
-    border-radius: 1px;
+    border: 1px solid blanchedalmond;
+    border-color: rgb(59, 29, 1);
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+    margin-right: 15px;
 }
 
-.sound:hover {
-    background-color: beige;
-    color: brown;
+.Phonetic .sound:hover {
+    background-color: rgb(117, 74, 44);
+    color: beige;
+}
+
+.Phonetic .pronounce {
+    color: rgb(59, 29, 1);
+    font-weight:900;
+    opacity: 0.8;
+    
+    
 }
